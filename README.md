@@ -35,8 +35,8 @@ or with the Caddyfile:
 # globally
 {
 	acme_dns porkbun {
-			"api_key": "{env.PORKBUN_API_KEY}",
-			"api_secret_key": "{env.PORKBUN_API_SECRET_KEY}"
+			api_key {env.PORKBUN_API_KEY}
+			api_secret_key {env.PORKBUN_API_SECRET_KEY}
 	}
 }
 ```
@@ -45,8 +45,8 @@ or with the Caddyfile:
 # one site
 tls {
 	dns porkbun {
-			"api_key": "{env.PORKBUN_API_KEY}",
-			"api_secret_key": "{env.PORKBUN_API_PASSWORD}"
+			api_key {env.PORKBUN_API_KEY}
+			api_secret_key {env.PORKBUN_API_PASSWORD}
 	}
 }
 ```
