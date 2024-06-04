@@ -164,12 +164,10 @@ github.com/kr/logfmt v0.0.0-20140226030751-b84e30acd515/go.mod h1:+0opPa2QZZtGFB
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=
 github.com/kr/pty v1.1.1/go.mod h1:pFQYn66WHrOpPYNljwOMqo10TkYh1fy3cYio2l3bCsQ=
 github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
-github.com/libdns/libdns v0.2.1 h1:Wu59T7wSHRgtA0cfxC+n1c/e+O3upJGWytknkmFEDis=
-github.com/libdns/libdns v0.2.1/go.mod h1:yQCXzk1lEZmmCPa857bnk4TsOiqYasqpyOEeSObbb40=
-github.com/libdns/porkbun v0.1.2-0.20230905235131-5a0cc670a39a h1:Iud6ZOf79UMvYQGgSbK8x4lIDoAK7meTdiK9BE1ci8Q=
-github.com/libdns/porkbun v0.1.2-0.20230905235131-5a0cc670a39a/go.mod h1:OwEy9DeKgmRBsYSUdASXFAdpr1odyyFBMOxi2r2aEDc=
-github.com/libdns/porkbun v0.1.2 h1:D1JN8wqwwU9jlFWWisBNSWAMRYdqjsre6XxfaJwZ0mQ=
-github.com/libdns/porkbun v0.1.2/go.mod h1:OwEy9DeKgmRBsYSUdASXFAdpr1odyyFBMOxi2r2aEDc=
+github.com/libdns/libdns v0.2.2 h1:O6ws7bAfRPaBsgAYt8MDe2HcNBGC29hkZ9MX2eUSX3s=
+github.com/libdns/libdns v0.2.2/go.mod h1:4Bj9+5CQiNMVGf87wjX4CY3HQJypUHRuLvlsfsZqLWQ=
+github.com/libdns/porkbun v0.1.3-0.20240530090436-6dda640b5aef h1:X38puNKsuVrMAlL/wnZsovJBw8vCi4XyEVHHZ3vV6SI=
+github.com/libdns/porkbun v0.1.3-0.20240530090436-6dda640b5aef/go.mod h1:mwrhwXpsSA2Xw23t9+qmgFnz+erkn25Sxuh7IBA+x2I=
 github.com/matttproud/golang_protobuf_extensions v1.0.1 h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=
 github.com/matttproud/golang_protobuf_extensions v1.0.1/go.mod h1:D8He9yQNgCq6Z5Ld7szi9bcBfOoFv/3dc6xSMkL2PC0=
 github.com/mholt/acmez v1.2.0 h1:1hhLxSgY5FvH5HCnGUuwbKY2VQVo8IU7rxXKSnZ7F30=
