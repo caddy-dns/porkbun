@@ -1,6 +1,7 @@
 package porkbun
 
 import (
+	"strings"
 	"github.com/caddyserver/caddy/v2"
 	"github.com/caddyserver/caddy/v2/caddyconfig/caddyfile"
 	porkbun "github.com/libdns/porkbun"
@@ -23,8 +24,8 @@ func (Provider) CaddyModule() caddy.ModuleInfo {
 
 // Provision sets up the module. Implements caddy.Provisioner.
 func (p *Provider) Provision(ctx caddy.Context) error {
-	p.Provider.APIKey = caddy.NewReplacer().ReplaceAll(p.Provider.APIKey, "")
-	p.Provider.APISecretKey = caddy.NewReplacer().ReplaceAll(p.Provider.APISecretKey, "")
+	p.Provider.APIKey = strings.TrimSpace(caddy.NewReplacer().ReplaceAll(p.Provider.APIKey, ""))
+	p.Provider.APISecretKey = strings.TrimSpace(caddy.NewReplacer().ReplaceAll(p.Provider.APISecretKey, ""))
 	return nil
 }
 
