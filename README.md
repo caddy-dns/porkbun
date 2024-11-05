@@ -1,7 +1,12 @@
 
-Porkbun module for Caddy
+# Porkbun module for Caddy
 ===========================
 
+## ⚠️ Porkbun API hostname change ⚠️
+
+This module has been swapped to the updated API hostname as of V0.20. Versions prior to this will cease to function when the old endpoint is disabled on 01/12/2024.
+
+## About
 This package contains a DNS provider module for [Caddy](https://github.com/caddyserver/caddy). It can be used to manage DNS records with Porkbun.
 
 ## Caddy module name
