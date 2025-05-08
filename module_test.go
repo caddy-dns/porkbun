@@ -59,11 +59,10 @@ func TestEmptyConfig(t *testing.T) {
 
 func TestPartialConfig(t *testing.T) {
 	fmt.Println("Testing partial config fails to parse... ")
-	zone_token := "bar"
-	config := fmt.Sprintf(`
+	config := `
 	porkbun {
-		zone_token %s
-	}`, zone_token)
+		api_secret_key itsasecret
+	}`
 
 	dispenser := caddyfile.NewTestDispenser(config)
 	p := Provider{&porkbun.Provider{}}
@@ -80,8 +79,11 @@ func TestPartialConfig(t *testing.T) {
 
 func TestTooManyArgs(t *testing.T) {
 	fmt.Println("Testing too many args... ")
-	api_token := "foo"
-	config := fmt.Sprintf("porkbun %s with more", api_token)
+	config := `porkbun {
+			api_key thekey
+			api_secret_key itsasecret
+			something_else fail
+		}`
 
 	dispenser := caddyfile.NewTestDispenser(config)
 	p := Provider{&porkbun.Provider{}}
