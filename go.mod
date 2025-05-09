@@ -4,7 +4,7 @@ go 1.24
 
 require (
 	github.com/caddyserver/caddy/v2 v2.10.0
-	github.com/libdns/porkbun v1.0.0
+	github.com/libdns/porkbun v1.0.1
 )
 
 require (
